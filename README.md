@@ -1,5 +1,5 @@
 # Designers.MX Enhancement Chrome Extension
-This chrome extension filters playlists for Spotify, Rdio, and Soundcloud, so users won't have to hover over them individuals to find out.
+This chrome extension filters playlists for Spotify, Rdio, and Soundcloud on the website http://designers.mx so users won't have to hover over them individuals to find out.
 
 # Function
 Clicking on a service shows all playlists currently loaded that work with it. Matches are highlighted while all others are faded.
