@@ -27,6 +27,21 @@ html {
 	padding: 0;
 	line-height: 1;
 	margin: 0 0.5rem;
+	color: #999;
+  }/*
+  #btn_reset, & > a {
+	color: #eee;
+  }*/
+  .active {
+	&#btn_spotify {
+	  color: $color_spotify;
+	}
+	&#btn_soundcloud {
+	  color: $color_soundcloud;
+	}
+	&#btn_rdio {
+	  color: $color_rdio;
+	}
   }
 }
 
