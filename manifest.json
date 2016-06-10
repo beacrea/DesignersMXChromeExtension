@@ -6,7 +6,7 @@
   "version": "1.0",
   "content_scripts": [
     {
-      "css": [ "extStyle.css" ],
+      "css": [ "extStyle.min.css" ],
       "matches": [
         "https://designers.mx/*", "http://designers.mx/*"
       ],

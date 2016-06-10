@@ -1,0 +1,38 @@
+body {
+  padding-top: 0; }
+
+body.active {
+  transition: padding 1s;
+  padding-top: 48px; }
+
+#xyz {
+  transition: opacity 0.5s;
+  opacity: 0;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  background: pink;
+  z-index: 6; }
+
+#xyz button {
+  margin: 0; }
+
+body.active #xyz {
+  opacity: 1; }
+
+#testButtonYo {
+  border: 1px solid yellow; }
+
+/*.this_has_soundcloud {*/
+/*border-top: 4px solid #dc4303;*/
+/*}*/
+/*.this_has_spotify {*/
+/*border-top: 4px solid #8bc305;*/
+/*}*/
+/*.this_has_rdio {*/
+/*border-top: 4px solid #2d90ce;*/
+/*}*/
+
+/*# sourceMappingURL=extStyle.min.css.map */
