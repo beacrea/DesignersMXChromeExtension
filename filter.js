@@ -15,7 +15,6 @@ $(window).bind("load", function() {
     };
 
     $('html').delay(4000).addClass('active').append('<div id="xyz"></div>');
-    $('.mixes__navigation').append('<div id="xyz"></div>');
     $('#xyz').load(chrome.extension.getURL("content.html"), function() {
         $('#btn_spotify').on('click', function() {
             clearFilter();
@@ -28,6 +27,9 @@ $(window).bind("load", function() {
         $('#btn_soundcloud').on('click', function() {
             clearFilter();
             removeAllBut('soundcloud');
+        });
+        $('#btn_reset').on('click', function() {
+            clearFilter();
         });
     });
 });
