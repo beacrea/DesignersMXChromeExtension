@@ -23,7 +23,7 @@ html {
   color: white;
   z-index: 6;
   border-bottom: 1px solid $color_designersmx-red;
-  & > button {
+  & > button, & > a {
 	padding: 0;
 	line-height: 1;
 	margin: 0 0.5rem;
