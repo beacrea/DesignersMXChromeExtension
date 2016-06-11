@@ -23,10 +23,14 @@ html {
   color: white;
   z-index: 6;
   border-bottom: 1px solid $color_designersmx-red;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  & > button, & > a, & > span {
+	margin: 0 0.25rem;
+  }
   & > button, & > a {
 	padding: 0;
 	line-height: 1;
-	margin: 0 0.5rem;
 	color: #999;
   }/*
   #btn_reset, & > a {
